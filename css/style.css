@@ -1,0 +1,194 @@
+body {
+    background-color: #e9c9fd;
+    padding: 10px;
+    text-align: center;
+    margin: 0px;
+    font-family: "Hind Madurai", hind-madurai;
+    font-size: 15px;
+    color: rgb(124, 0, 128);
+}
+
+nav {
+    margin: 0;
+    background-color: #e2b2fd;
+    padding: 10px;
+    display: flex;
+    justify-content: right;
+}
+
+a.contact {
+    color: #ca5ed8;
+    text-decoration: underline;
+}
+
+a.contact:hover {
+    color: rgb(64, 112, 185);
+}
+
+footer {
+    background-color: #e2b2fd;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+
+}
+
+a#link {
+    color: rgb(252, 118, 140);
+    text-decoration: none;
+}
+
+a#link:hover {
+    color: rgb(189, 0, 173);
+}
+
+h1#name {
+    position: absolute;
+    top: 200px;
+    right: 850px;
+    font-family: "Pacifico", pacifico;
+    font-size: 40px;
+    color:#62aff7
+}
+
+h2#intro {
+    position: absolute;
+    top: 290px;
+    left: 845px;
+    color:#a4cff8;
+}
+
+.balcony {
+    position: absolute;
+    top: 100px;
+    left: 560px;
+}
+
+.colorful-clouds1 {
+    position: absolute;
+    top: 200px;
+    right: 1200px;
+}
+
+.colorful-clouds2 {
+    position: absolute;
+    top: 200px;
+    right: 90px;
+}
+
+#headshot {
+    position: absolute;
+    top: 360px;
+    right: 885px;
+    border: solid medium #62aff7;
+    border-width: 3px;
+}
+
+.introduction-section {
+    padding: 10px;
+}
+
+.about-me-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 190vh;
+    margin: 0;
+    background-color: #e9c9fd;
+}
+
+hr {
+    border-width: 7px;
+    width: 100%;
+    border-style: dotted;
+    border-bottom: solid transparent;
+    color:#ca5ed8
+}
+
+.card {
+    background: linear-gradient(to right, #da9efd, #f4e2ff, #da9efd);
+    border: solid medium #ca5ed8;
+    box-shadow: 0 -10px 9px rgba(0, 0, 0, 0.1);
+    margin: 5px;
+    padding: 8px;
+    border-radius: 10px;
+    display: grid;
+    gap: 16px;
+}
+
+.three-col {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 10px;
+}
+
+.column-pictures {
+    margin: 0 auto;
+}
+
+.language-list {
+    display: grid;
+    gap: 10px;
+    text-align: center;
+    list-style: none;
+}
+
+.experience {
+    display: grid;
+    gap: 10px;
+    text-align: center;
+}
+
+.skills {
+    display: grid;
+    gap: 10px;
+    text-align: center;
+}
+
+h1#contact {
+    font-family: "Pacifico", pacifico;
+}
+
+.one-col {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: bold;
+    padding: 5px;
+}
+
+textarea {
+    width: 80%;
+    padding: 10px;
+    border: 2px solid #ca5ed8;
+}
+
+input {
+    width: 30%;
+    padding: 5px;
+    border: 2px solid #ca5ed8;
+}
+
+.button {
+    background-color: #db9eff;
+    font-family: "Hind Madurai", hind-madurai;
+    font-size: 15px;
+    color: rgb(124, 0, 128);
+}
+
+.fluffy-cloud1 {
+    position: absolute;
+    top: 90px;
+    left: 300px;
+}
+
+.fluffy-cloud2 {
+    position: absolute;
+    top: 90px;
+    right: 300px;
+}
